@@ -8,20 +8,20 @@ const solutionContent = {
 	text: {
 		headingSubTitle: "Our Solutions",
 		headingTitle:
-			"From safeguarding your home with state-of-the-art alarm systems",
-		description: `From safeguarding your home with state-of-the-art alarm systems to offering reliable insurance options, we ensure that your family is protected in every aspect of life. With our Family Security Plan, you can rest easy knowing that you've taken the necessary steps to secure a brighter future for your family. Trust us to be your partner in safeguarding what matters most – your family's well-being.`,
+			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, sequi?",
+		description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi a, odit iure dolorum voluptatum doloribus repellendus placeat aliquam optio est sapiente facere quasi. Neque pariatur atque, iusto rem temporibus tempore soluta, iure eum voluptatibus eligendi ullam eaque natus omnis blanditiis. Tenetur exercitationem minus voluptatibus! Fuga porro rem praesentium blanditiis.`,
 		features: [
 			{
-				title: "Home Fire Safety",
+				title: "Lorem, ipsum dolor.",
 			},
 			{
-				title: "Home Fire Safety",
+				title: "Lorem, ipsum dolor.",
 			},
 			{
-				title: "Home Fire Safety",
+				title: "Lorem, ipsum dolor.",
 			},
 			{
-				title: "Home Fire Safety",
+				title: "Lorem, ipsum dolor.",
 			},
 		],
 		cta: {
@@ -41,7 +41,7 @@ const solutionContent = {
 		img3: "/images/solution-img-3-min.jpg",
 	},
 	experience: {
-		year: "25+",
+		year: "10+",
 		label: "years of experience",
 	},
 };

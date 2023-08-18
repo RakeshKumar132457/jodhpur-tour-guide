@@ -7,10 +7,10 @@ import "aos/dist/aos.css";
 
 const heroContent = {
 	text: {
-		subheading: "Welcome to FamSec",
-		heading: "Protecting Families, Securing Futures",
+		subheading: "Welcome to Jodhpur Tour Guide",
+		heading: "Lorem ipsum dolor sit amet.",
 		description:
-			"We understand that protecting your loved ones is of utmost importance. That's why we are dedicated to providing comprehensive solutions tailored to your family's unique needs. Our expert team is committed to creating a solid foundation of security and peace of mind for you and your loved ones.",
+			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim error ut saepe aperiam dolore sunt inventore alias sequi, nisi dignissimos facere, recusandae ducimus molestias vitae, culpa numquam? Illo, nemo natus.",
 	},
 	images: {
 		img1: "/images/hero-img-1-min.jpg",
