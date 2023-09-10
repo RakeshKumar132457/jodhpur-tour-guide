@@ -7,14 +7,13 @@ import "aos/dist/aos.css";
 
 const statsContent = {
 	stats: [
-		{ number: "97.2%", label: "Child Safety" },
+		{ number: "10+", label: "Year's of Experience" },
 		{ number: "3827", label: "Happy Customers" },
 		{ number: "4.5", label: "Rating Reviews" },
 	],
 	getStarted: {
-		heading: "Get started with our service?",
-		description:
-			"We understand that protecting your loved ones is of utmost importance.",
+		heading: "Lorem ipsum dolor sit amet.",
+		description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
 		img: "/images/illustration-woman.svg",
 		cta: {
 			cta_href: "#",

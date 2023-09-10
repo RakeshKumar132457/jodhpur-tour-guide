@@ -3,46 +3,47 @@ import Image from "next/image";
 
 const servicesContent = {
 	heading: {
-		headingSubTitle: "Our Awesome Services",
+		headingSubTitle: "Lorem, ipsum dolor.",
 		headingTitle: "Our Services",
-		description: `We understand that protecting your loved ones is of utmost importance. That's why we are dedicated to providing comprehensive solutions tailored to your family's unique needs.`,
+		description:
+			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime voluptatem cupiditate. Quaerat accusamus atque, nam officiis, quo repellat voluptates vitae perspiciatis eum suscipit vel?",
 	},
 	items: [
 		{
-			icon: "/images/icon-1.svg",
-			title: "Child Safety Solutions",
+			icon: "/images/icon-6.svg",
+			title: "Lorem, ipsum dolor.",
 			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
-		},
-		{
-			icon: "/images/icon-2.svg",
-			title: "Child Safety Solutions",
-			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
-		},
-		{
-			icon: "/images/icon-3.svg",
-			title: "Child Safety Solutions",
-			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
-		},
-		{
-			icon: "/images/icon-4.svg",
-			title: "Child Safety Solutions",
-			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
-		},
-		{
-			icon: "/images/icon-5.svg",
-			title: "Child Safety Solutions",
-			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Child Safety Solutions",
+			title: "Lorem, ipsum dolor.",
 			description:
-				"Childproofing services and safety education to keep your children secure and protected at home and in public spaces.",
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+		},
+		{
+			icon: "/images/icon-6.svg",
+			title: "Lorem, ipsum dolor.",
+			description:
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+		},
+		{
+			icon: "/images/icon-6.svg",
+			title: "Lorem, ipsum dolor.",
+			description:
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+		},
+		{
+			icon: "/images/icon-6.svg",
+			title: "Lorem, ipsum dolor.",
+			description:
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+		},
+		{
+			icon: "/images/icon-6.svg",
+			title: "Lorem, ipsum dolor.",
+			description:
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
 		},
 	],
 };

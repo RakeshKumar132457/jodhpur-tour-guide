@@ -4,7 +4,11 @@ import { Inter } from "next/font/google";
 import Navigation from "./ui/Navigation";
 import Footer from "./ui/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+	subsets: ["latin"],
+	display: "swap",
+	adjustFontFallback: false,
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
