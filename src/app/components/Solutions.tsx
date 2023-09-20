@@ -6,32 +6,31 @@ import { BiCheck } from "react-icons/bi";
 
 const solutionContent = {
 	text: {
-		headingSubTitle: "Our Solutions",
-		headingTitle:
-			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, sequi?",
-		description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eligendi a, odit iure dolorum voluptatum doloribus repellendus placeat aliquam optio est sapiente facere quasi. Neque pariatur atque, iusto rem temporibus tempore soluta, iure eum voluptatibus eligendi ullam eaque natus omnis blanditiis. Tenetur exercitationem minus voluptatibus! Fuga porro rem praesentium blanditiis.`,
+		headingSubTitle: "Discover Jodhpur",
+		headingTitle: "Unveil the Mysteries of the Blue City",
+		description: `From the towering forts to the intricate architecture, our tours offer an unparalleled experience of Jodhpur's rich history and vibrant culture.`,
 		features: [
 			{
-				title: "Lorem, ipsum dolor.",
+				title: "Guided Fort Tours",
 			},
 			{
-				title: "Lorem, ipsum dolor.",
+				title: "Cultural Immersion",
 			},
 			{
-				title: "Lorem, ipsum dolor.",
+				title: "Adventure Activities",
 			},
 			{
-				title: "Lorem, ipsum dolor.",
+				title: "Personalized Itineraries",
 			},
 		],
 		cta: {
 			btn1: {
-				href: "#",
-				label: "Getting Started",
+				href: "/get-started",
+				label: "Start Your Journey",
 			},
 			btn2: {
-				href: "#",
-				label: "How it works",
+				href: "/how-it-works",
+				label: "Learn More",
 			},
 		},
 	},
@@ -41,8 +40,8 @@ const solutionContent = {
 		img3: "/images/solution-img-3-min.jpg",
 	},
 	experience: {
-		year: "10+",
-		label: "years of experience",
+		year: "8-10",
+		label: "years of specialized expertise",
 	},
 };
 

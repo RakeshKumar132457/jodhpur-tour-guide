@@ -7,17 +7,18 @@ import "aos/dist/aos.css";
 
 const statsContent = {
 	stats: [
-		{ number: "10+", label: "Year's of Experience" },
-		{ number: "3827", label: "Happy Customers" },
-		{ number: "4.5", label: "Rating Reviews" },
+		{ number: "8+", label: "Years Experience" },
+		{ number: "5000+", label: "Satisfied Adventurers" },
+		{ number: "4.8", label: "Average Rating" },
 	],
 	getStarted: {
-		heading: "Lorem ipsum dolor sit amet.",
-		description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+		heading: "Ready to Discover Jodhpur?",
+		description:
+			"Embark on a tailored journey through the Blue City's rich history and vibrant culture.",
 		img: "/images/illustration-woman.svg",
 		cta: {
 			cta_href: "#",
-			cta_label: "Learn More",
+			cta_label: "Start Your Adventure",
 		},
 	},
 };

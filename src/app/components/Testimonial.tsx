@@ -5,36 +5,36 @@ import Link from "next/link";
 const testimonialContent = {
 	quoteImg: "/images/quote.svg",
 	heading: {
-		headingSubtitle: "Customers says",
-		headingTitle: "Hear What Our Customers Say",
+		headingSubtitle: "What Travelers Say",
+		headingTitle: "Our Guests Speak Volumes",
 		description:
-			"From heartwarming testimonials to glowing reviews, these voices reflect the trust and confidence our customers place in us. Let their words speak volumes about the extraordinary experiences that await you with",
+			"Our guests' testimonials reflect the unforgettable experiences we offer. Hear firsthand accounts of the adventures that await you.",
 		cta: {
-			cta_href: "#",
-			cta_label: "Get Started",
+			cta_href: "/get-started",
+			cta_label: "Begin Your Adventure",
 		},
 	},
 	testimonials: [
 		{
 			img: "/images/person-1-min.jpg",
-			name: "Jane Cooper",
-			titleRole: "Customer - Dallas, TX",
+			name: "Emily Johnson",
+			titleRole: "Tourist - New York, NY",
 			testimony:
-				"With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!",
+				"The guided tour of Mehrangarh Fort was an eye-opening experience. The team's expertise made it unforgettable!",
 		},
 		{
 			img: "/images/person-2-min.jpg",
-			name: "Jane Cooper",
-			titleRole: "Customer - Dallas, TX",
+			name: "Mark Smith",
+			titleRole: "Travel Blogger - London, UK",
 			testimony:
-				"With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!",
+				"The cultural immersion tour was a highlight of my trip. Highly recommended!",
 		},
 		{
 			img: "/images/person-3-min.jpg",
-			name: "Jane Cooper",
-			titleRole: "Customer - Dallas, TX",
+			name: "Sophia Lee",
+			titleRole: "Tourist - Sydney, Australia",
 			testimony:
-				"With Family Home Security, I feel at ease knowing my family and home are protected 24/7. The system is user-friendly, and their customer support is fantastic!",
+				"The adventure activities were thrilling! The desert safari was a once-in-a-lifetime experience.",
 		},
 	],
 };
