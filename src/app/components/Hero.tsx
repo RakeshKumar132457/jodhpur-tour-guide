@@ -7,17 +7,37 @@ import "aos/dist/aos.css";
 
 const heroContent = {
 	text: {
-		subheading: "Welcome to Jodhpur Tour Guide",
-		heading: "Lorem ipsum dolor sit amet.",
+		subheading: "Welcome to Jodhpur's Premier Tour Guide",
+		heading: "Discover the Enchanting Blue City",
 		description:
-			"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim error ut saepe aperiam dolore sunt inventore alias sequi, nisi dignissimos facere, recusandae ducimus molestias vitae, culpa numquam? Illo, nemo natus.",
+			"Explore Jodhpur's historic forts, vibrant markets, and cultural landmarks. Our tailored tours are perfect for tourists, foreigners, and celebrities seeking an authentic experience.",
 	},
 	images: {
-		img1: "/images/hero-img-1-min.jpg",
-		img2: "/images/hero-img-2-min.jpg",
-		img3: "/images/hero-img-3-min.jpg",
-		img4: "/images/hero-img-4-min.jpg",
-		img5: "/images/hero-img-5-min.jpg",
+		img1: {
+			src: "/images/hero-img-1-min.jpg",
+			alt: "Mehrangarh Fort in the Blue City of Jodhpur",
+		},
+		img2: {
+			src: "/images/hero-img-2-min.jpg",
+			alt: "Jaswant Thada, an Architectural Marvel in Jodhpur",
+		},
+		img3: {
+			src: "/images/hero-img-3-min.jpg",
+			alt: "Umaid Palace, the Royal Residence in Jodhpur",
+		},
+		img4: {
+			src: "/images/hero-img-4-min.jpg",
+			alt: "Aerial View of the Blue City of Jodhpur",
+		},
+		img5: {
+			src: "/images/hero-img-5-min.jpg",
+			alt: "Mehrangarh Fort, a Different Perspective",
+		},
+	},
+	ctaButton: {
+		text: "Discover Jodhpur Today",
+		id: "discover-jodhpur-button",
+		href: "#",
 	},
 };
 
@@ -29,6 +49,7 @@ const Hero = () => {
 			once: true,
 		});
 	});
+
 	return (
 		<section className='py-20'>
 			<div className='container px-4 mx-auto'>
@@ -68,17 +89,18 @@ const Hero = () => {
 							data-aos-delay='300'
 						>
 							<Link
-								href='#'
+								href={heroContent.ctaButton.href}
 								className=' py-4 px-5 bg-primary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-[#134761] hover:shadow-lg inline-block relative top-0 hover:-top-1'
+								id={heroContent.ctaButton.id}
 							>
-								Get Started
+								{heroContent.ctaButton.text}
 							</Link>
-							<Link
+							{/* <Link
 								href='#'
 								className=' py-4 px-5 bg-secondary text-white rounded-lg duration-300 transition-all ease-in-out hover:bg-[#179792] hover:shadow-lg inline-block relative top-0 hover:-top-1'
 							>
 								How it works
-							</Link>
+							</Link> */}
 						</div>
 					</div>
 
@@ -87,10 +109,10 @@ const Hero = () => {
 							<div className='w-8/12'>
 								{heroContent.images.img1 && (
 									<Image
-										src={heroContent.images.img1}
+										src={heroContent.images.img1.src}
 										width={397}
 										height={406}
-										alt={"User image"}
+										alt={heroContent.images.img1.alt}
 										className='object-cover h-full w-full rounded-2xl'
 										data-aos='fade-in'
 									/>
@@ -100,21 +122,25 @@ const Hero = () => {
 								<div className='grid grid-cols-2 gap-2'>
 									{heroContent.images.img2 && (
 										<Image
-											src={heroContent.images.img2}
+											src={heroContent.images.img2.src}
 											width={437}
 											height={437}
-											alt='User Images'
+											alt={heroContent.images.img2.alt}
 											className='object-cover h-full w-full rounded-2xl'
 											data-aos='fade-in'
 											data-aos-delay='100'
 										/>
 									)}
-									<div className='bg-yellowLight rounded-2xl rounded-tr-[200px]'></div>
+									<div
+										className='bg-yellowLight rounded-2xl rounded-tr-[200px]'
+										data-aos='fade-in'
+										data-aos-delay='150'
+									></div>
 								</div>
 								{heroContent.images.img3 && (
 									<Image
-										src={heroContent.images.img3}
-										alt='user image'
+										src={heroContent.images.img3.src}
+										alt={heroContent.images.img3.alt}
 										width={374}
 										height={392}
 										className='object-cover h-full w-full rounded-2xl'
@@ -128,14 +154,22 @@ const Hero = () => {
 						<div className='flex space-x-2'>
 							<div className='w-4/12'>
 								<div className='grid grid-cols-2 gap-2'>
-									<div className='bg-greenLight rounded-2xl rounded-bl-[200px]'></div>
+									<div
+										className='bg-greenLight rounded-2xl rounded-bl-[200px]'
+										data-aos='fade-in'
+										data-aos-delay='250'
+									></div>
 									{heroContent.images.img4 && (
 										<div>
 											<Image
-												src={heroContent.images.img4}
+												src={
+													heroContent.images.img4.src
+												}
 												width={394}
 												height={394}
-												alt='User image'
+												alt={
+													heroContent.images.img4.alt
+												}
 												className='object-cover h-full w-full rounded-2xl'
 												data-aos='fade-in'
 												data-aos-delay='400'
@@ -147,10 +181,10 @@ const Hero = () => {
 							<div className='w-5/12'>
 								{heroContent.images.img5 && (
 									<Image
-										src={heroContent.images.img5}
+										src={heroContent.images.img5.src}
 										width={446}
 										height={495}
-										alt='User image'
+										alt={heroContent.images.img5.alt}
 										className='object-cover h-full w-full rounded-2xl'
 										data-aos='fade-in'
 										data-aos-delay='300'

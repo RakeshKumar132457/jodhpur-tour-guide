@@ -13,69 +13,69 @@ const footerContent = {
 	about: {
 		logo: "/images/logo.svg",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, fugit? Ut similique unde, rerum ea totam quas tenetur velit recusandae.",
+			"Embark on a journey through the rich history and vibrant culture of Jodhpur with our expert-guided tours.",
 		cta: {
-			href: "#_",
-			label: "Learn More",
+			href: "/about-us",
+			label: "Discover More",
 		},
 	},
 	footerLinks: [
 		{
-			heading: "Company",
+			heading: "Explore",
 			links: [
 				{
-					href: "#_",
+					href: "/",
 					label: "Home",
 				},
 				{
-					href: "#_",
-					label: "About",
+					href: "/about-us",
+					label: "About Us",
 				},
 				{
-					href: "#_",
+					href: "/contact",
 					label: "Contact",
 				},
 				{
-					href: "#_",
+					href: "/blog",
 					label: "Blog",
 				},
 			],
 		},
 		{
-			heading: "Resources",
+			heading: "Quick Links",
 			links: [
 				{
-					href: "#_",
-					label: "Blog",
+					href: "/faq",
+					label: "FAQs",
 				},
 				{
-					href: "#_",
-					label: "Support",
+					href: "/support",
+					label: "Customer Support",
 				},
 				{
-					href: "#_",
+					href: "/terms-and-conditions",
 					label: "Terms & Conditions",
 				},
 				{
-					href: "#_",
+					href: "/privacy-policy",
 					label: "Privacy Policy",
 				},
 			],
 		},
 	],
 	contact: {
-		heading: "Contacts",
+		heading: "Get in Touch",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quae.",
+			"We're here to assist you in planning your next unforgettable adventure in Jodhpur.",
 		address: {
-			street: "223 No Street, Somewhere, World",
-			phone: "+9122334444",
-			website: "https://thisisthewebsite.com",
+			street: "45 Royal Lane, Jodhpur, Rajasthan",
+			phone: "+91 123 456 7890",
+			website: "https://jodhpurtourguide.com",
 		},
 	},
 	copyright: {
-		labelOne: "Copyright 2023. Designed with",
-		labelTwo: "by Rakesh Kumar. All rights reserved",
+		labelOne: "Copyright 2023. Crafted with",
+		labelTwo: "by Jodhpur Tour Guide Team. All rights reserved.",
 	},
 };
 
