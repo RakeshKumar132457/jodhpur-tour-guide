@@ -3,47 +3,47 @@ import Image from "next/image";
 
 const servicesContent = {
 	heading: {
-		headingSubTitle: "Lorem, ipsum dolor.",
-		headingTitle: "Our Services",
+		headingSubTitle: "Explore Jodhpur Like Never Before",
+		headingTitle: "Our Exclusive Services",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maxime voluptatem cupiditate. Quaerat accusamus atque, nam officiis, quo repellat voluptates vitae perspiciatis eum suscipit vel?",
+			"Discover the rich history, vibrant markets, and majestic forts of Jodhpur with our specialized tour packages.",
 	},
 	items: [
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Historic Fort Tours",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Experience the grandeur of Mehrangarh Fort and other iconic landmarks.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Market Excursions",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Explore the bustling Sardar Market and shop for unique souvenirs.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Cultural Experiences",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Immerse yourself in local traditions, cuisine, and performances.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Luxury Packages",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Enjoy a premium experience with exclusive access and amenities.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Adventure Activities",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Get your adrenaline pumping with desert safaris and zip-lining.",
 		},
 		{
 			icon: "/images/icon-6.svg",
-			title: "Lorem, ipsum dolor.",
+			title: "Customized Tours",
 			description:
-				"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ipsa veritatis numquam ipsam rem ad.",
+				"Tailor your journey to fit your interests and schedule.",
 		},
 	],
 };

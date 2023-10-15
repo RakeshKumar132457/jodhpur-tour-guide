@@ -9,76 +9,53 @@ import "swiper/css";
 
 const instagramPosts = {
 	heading: {
-		headingSubTitle: "Our Writeups",
-		headingTitle: "Our Latest Articles",
+		headingSubTitle: "Jodhpur Diaries",
+		headingTitle: "Explore Our Latest Journeys",
 		description:
-			"We are dedicated to staying at the forefront of our industry and keeping our valued community informed about the latest trends, insights, and innovations.",
+			"Dive into our latest articles that take you through the hidden gems and untold stories of Jodhpur. Stay updated with travel tips, local insights, and much more.",
 	},
 	recentPosts: [
 		{
-			permalink: "#_",
+			permalink: "/blog/mehrangarh-fort",
 			featuredImg: "/images/post-1-min.jpg",
-			title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magni?",
+			title: "The Majestic Mehrangarh Fort: A Timeless Journey",
 			excerpt:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam assumenda nulla doloribus libero? Ipsa aliquid odit amet a voluptatibus.",
+				"Discover the history and architectural marvels of Mehrangarh Fort, one of the largest forts in India.",
 			author: {
 				img: "/images/person-1-min.jpg",
-				name: "Alisa Richardson",
-				titleRole: "Editor, CEO, Co-Founder",
+				name: "Raj Singh",
+				titleRole: "Travel Writer, Jodhpur Expert",
 			},
 		},
 		{
-			permalink: "#_",
+			permalink: "/blog/cultural-immersion",
 			featuredImg: "/images/post-2-min.jpg",
-			title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magni?",
+			title: "Cultural Immersion: The Soul of Jodhpur",
 			excerpt:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam assumenda nulla doloribus libero? Ipsa aliquid odit amet a voluptatibus.",
+				"Experience the rich culture and traditions that make Jodhpur a unique destination.",
 			author: {
 				img: "/images/person-2-min.jpg",
-				name: "Alisa Richardson",
-				titleRole: "Editor, CEO, Co-Founder",
+				name: "Anita Sharma",
+				titleRole: "Cultural Enthusiast, Co-Founder",
 			},
 		},
 		{
-			permalink: "#_",
+			permalink: "/blog/adventure-activities",
 			featuredImg: "/images/post-3-min.jpg",
-			title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magni?",
+			title: "Thrilling Adventures in Jodhpur",
 			excerpt:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam assumenda nulla doloribus libero? Ipsa aliquid odit amet a voluptatibus.",
+				"From desert safaris to zip-lining, explore the adventurous side of Jodhpur.",
 			author: {
 				img: "/images/person-3-min.jpg",
-				name: "Alisa Richardson",
-				titleRole: "Editor, CEO, Co-Founder",
+				name: "Vikram Patel",
+				titleRole: "Adventure Guide, Blogger",
 			},
 		},
-		{
-			permalink: "#_",
-			featuredImg: "/images/post-1-min.jpg",
-			title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magni?",
-			excerpt:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam assumenda nulla doloribus libero? Ipsa aliquid odit amet a voluptatibus.",
-			author: {
-				img: "/images/person-1-min.jpg",
-				name: "Alisa Richardson",
-				titleRole: "Editor, CEO, Co-Founder",
-			},
-		},
-		{
-			permalink: "#_",
-			featuredImg: "/images/post-2-min.jpg",
-			title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, magni?",
-			excerpt:
-				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam assumenda nulla doloribus libero? Ipsa aliquid odit amet a voluptatibus.",
-			author: {
-				img: "/images/person-2-min.jpg",
-				name: "Alisa Richardson",
-				titleRole: "Editor, CEO, Co-Founder",
-			},
-		},
+		// ... (other posts)
 	],
 	cta: {
-		href: "#_",
-		label: "To view all posts",
+		href: "/blog",
+		label: "To view all posts,",
 		labelSuffix: "click here",
 	},
 };
