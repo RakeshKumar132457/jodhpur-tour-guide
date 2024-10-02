@@ -1,113 +1,47 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { heroContent } from "../contents/siteContent";
-import { Button } from "../ui/Button";
+import React from "react";
+
+const heroContent = {
+    text: {
+        heading: "Nature.",
+        subheading: "Discover the Enchanting Blue City",
+    },
+    image: {
+        src: "/images/hero-img-1-min.jpg",
+        alt: "Mehrangarh Fort in the Blue City of Jodhpur",
+    },
+    ctaButton: {
+        text: "Explore Now",
+        href: "#",
+    },
+};
 
 const Hero = () => {
     return (
-        <section className="py-20">
-            <div className="container px-4 mx-auto">
-                <div className="lg:flex justify-between items-center">
-                    <div className="lg:w-5/12 mb-10 lg:mb-0">
-                        {heroContent.text.subheading && (
-                            <span className="inline-block py-0.5 pl-3 text-heading font-semibold relative mb-7 before:content-[''] before:absolute before:w-2/3 before:bg-yellowLight before:left-0 before:top-0 before:bottom-0 before:z-[-1]">
-                                {heroContent.text.subheading}
-                            </span>
-                        )}
-                        {heroContent.text.heading && (
-                            <h1 className="text-4xl lg:text-5xl font-bold text-heading mb-7">
-                                {heroContent.text.heading}
-                            </h1>
-                        )}
+        <section className="relative h-screen overflow-hidden">
+            <div className="absolute inset-0 bg-fixed bg-cover bg-center"
+                 style={{
+                     backgroundImage: `url(${heroContent.image.src})`,
+                 }}>
+                <div className="absolute inset-0 bg-black opacity-30" />
+            </div>
 
-                        {heroContent.text.description && (
-                            <p className="leading-relaxed text-body mb-10">
-                                {heroContent.text.description}
-                            </p>
-                        )}
-
-                        <div className="flex space-x-3">
-                            <Button
-                                href={heroContent.ctaButton.href}
-                                id={heroContent.ctaButton.id}
-                                text={heroContent.ctaButton.text}
-                            />
-                        </div>
-                    </div>
-
-                    <div className="lg:w-6/12 space-y-2">
-                        <div className="flex space-x-2 items-stretch">
-                            <div className="w-8/12">
-                                {heroContent.images.img1 && (
-                                    <Image
-                                        src={heroContent.images.img1.src}
-                                        width={397}
-                                        height={406}
-                                        alt={heroContent.images.img1.alt}
-                                        className="object-cover h-full w-full rounded-2xl"
-                                        loading="lazy"
-                                    />
-                                )}
-                            </div>
-                            <div className="w-4/12 self-end space-y-2">
-                                <div className="grid grid-cols-2 gap-2">
-                                    {heroContent.images.img2 && (
-                                        <Image
-                                            src={heroContent.images.img2.src}
-                                            width={437}
-                                            height={437}
-                                            alt={heroContent.images.img2.alt}
-                                            className="object-cover h-full w-full rounded-2xl"
-                                        />
-                                    )}
-                                    <div className="bg-yellowLight rounded-2xl rounded-tr-[200px]"></div>
-                                </div>
-                                {heroContent.images.img3 && (
-                                    <Image
-                                        src={heroContent.images.img3.src}
-                                        alt={heroContent.images.img3.alt}
-                                        width={374}
-                                        height={392}
-                                        className="object-cover h-full w-full rounded-2xl"
-                                    />
-                                )}
-                            </div>
-                        </div>
-
-                        <div className="flex space-x-2">
-                            <div className="w-4/12">
-                                <div className="grid grid-cols-2 gap-2">
-                                    <div className="bg-greenLight rounded-2xl rounded-bl-[200px]"></div>
-                                    {heroContent.images.img4 && (
-                                        <div>
-                                            <Image
-                                                src={
-                                                    heroContent.images.img4.src
-                                                }
-                                                width={394}
-                                                height={394}
-                                                alt={
-                                                    heroContent.images.img4.alt
-                                                }
-                                                className="object-cover h-full w-full rounded-2xl"
-                                            />
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                            <div className="w-5/12">
-                                {heroContent.images.img5 && (
-                                    <Image
-                                        src={heroContent.images.img5.src}
-                                        width={446}
-                                        height={495}
-                                        alt={heroContent.images.img5.alt}
-                                        className="object-cover h-full w-full rounded-2xl"
-                                    />
-                                )}
-                            </div>
-                        </div>
-                    </div>
+            <div className="relative h-full flex items-center justify-center text-white px-4">
+                <div className="text-center">
+                    <h1 className="text-6xl md:text-8xl font-bold mb-4">
+                        {heroContent.text.heading}
+                    </h1>
+                    <p className="text-xl md:text-2xl mb-8">
+                        {heroContent.text.subheading}
+                    </p>
+                    <Link
+                        href={heroContent.ctaButton.href}
+                        className="py-4 px-8 bg-white text-black rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all duration-300"
+                    >
+                        {heroContent.ctaButton.text}
+                    </Link>
                 </div>
             </div>
         </section>
